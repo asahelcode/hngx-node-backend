@@ -21,8 +21,9 @@ app.get("/api", (req, res) => {
     current_day: weekday,
     utc_time: validatedUTC(utctime),
     track: track,
-    github_file_url: "https://github.com/username/repo/blob/main/file_name.ext",
-    github_repo_url: "https://github.com/username/repo",
+    github_file_url:
+      "https://github.com/asahelcode/hngx-node-backend/blob/main/server.js",
+    github_repo_url: "https://github.com/asahelcode/hngx-node-backend",
     status_code: 200,
   });
 });
